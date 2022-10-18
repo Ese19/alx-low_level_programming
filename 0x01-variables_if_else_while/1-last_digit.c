@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - will assign a random number to the variable n each time it is executed and  print the last digit of the number stored  * in the variable n
+ */
 
 int main(void)
 {
@@ -15,15 +17,15 @@ int main(void)
 
 	if (lastDigit > 5)
 	{
-		printf("The last digit of %d is %d and is greater than 5\n", n, lastDigit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
-		printf("The last digit of %d is %d and is 0\n", n, lastDigit);
+		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 	}
 	else
 	{
-		printf("The last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 	}
 
 	return (0);
