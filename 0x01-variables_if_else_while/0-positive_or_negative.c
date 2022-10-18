@@ -2,12 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/* more headers goes there */
-
-
-
-/** main - Checks and prints if random number is positive or negative 
- * Return: 0 
+/** main - Checks and prints if random number is positive or negative
+ * Return: 0
  */
 
 int main(void)
@@ -19,7 +15,11 @@ int main(void)
 	
 	if(n < 0)
 	{
-		printf("%d is negative\n", n); 
+		printf("%d is negative\n", n);
+	}
+	else if ( n == 0)
+	{
+		printf("%d is zero\n", n);
 	}
 	else
 	{
