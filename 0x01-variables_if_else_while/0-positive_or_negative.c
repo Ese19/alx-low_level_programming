@@ -1,6 +1,6 @@
 #include <stdlib.h>
-
 #include <time.h>
+#include <stdio.h>
 
 /* more headers goes there */
 
@@ -19,11 +19,11 @@ int main(void)
 	
 	if(n < 0)
 	{
-		printf("%zu is negative\n", n) 
+		printf("%d is negative\n", n); 
 	}
 	else
 	{
-		printf("%zu is positive\n", n)
+		printf("%d is positive\n", n);
 	}
 
 	return (0);
