@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Assign a random number to the variable n and print the last digit of the number stored in the variable n
+ * main - Assign a random number n and print the last digit of the number n
  * Return: 0
  */
 
@@ -13,7 +13,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
 	lastDigit = n % 10;
 
 	if (lastDigit > 5)
