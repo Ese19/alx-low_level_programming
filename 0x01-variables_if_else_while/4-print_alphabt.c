@@ -2,7 +2,7 @@
 
 /**
  * main - prints all the letters except q and e in lowercase
- * Retrurn: 0
+ * Return: 0
  */
 
 int main(void)
@@ -17,8 +17,7 @@ int main(void)
 		}
 
 		putchar(ch);
-	}
-	
+	}	
 	putchar('\n');
 	return (0);
 }
