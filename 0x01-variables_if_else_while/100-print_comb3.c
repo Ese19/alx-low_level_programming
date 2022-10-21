@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (i != j)
 			{
-				putchar(i);
-				putchar(j);
+				putchar('0' + i);
+				putchar('0' + j);
 			}
 			if (i < 8)
 			{
