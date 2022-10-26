@@ -7,12 +7,12 @@
 
 int main(void)
 {
-	char message[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char text[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	int i;
 
-	for (i = 0; message[i] != '\0'; i++)
+	for (i = 0; text[i] != '\0'; i++)
 	{
-		putchar(message[i]);
+		putchar(text[i]);
 	}
 	putchar('\n');
 	return (1);
