@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * @c - type int
+ * @c: type int
  * Return: 1 if true and 0 if false
  */
 
